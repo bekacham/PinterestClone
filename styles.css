@@ -1,0 +1,153 @@
+/*header styles*/
+
+#header {
+  width: 100%;
+  background-color: white;
+  color: #bdbdbd;
+  margin-bottom: -20px;
+  border-bottom: 1px solid #bdbdbd;
+  height: 65px;
+}
+
+/*#header ul li {*/
+  /*list-style-type: none;
+  font-family: Arial;
+  font-size: .8em;
+  font-weight: bold;
+  display: inline-block;
+}*/
+
+#logo {
+  float: left;
+}
+
+#logo img {
+  width: 40px;
+  float: left;
+}
+
+#search {
+  width: 50%;
+  float: left;
+  margin-left: 240px;
+  padding-top: 10px;
+}
+
+#search-box {
+  width: 150%;
+  height: 25px;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #efefef;
+  margin: -190px;
+  border: 0px;
+  font-family: Helvetica;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#font-awesome {
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+
+#font-awesome a {
+  color: #bdbdbd;
+  text-decoration: none;
+  font-size: 1.9em;
+  margin-left: 20px;
+}
+
+#font-awesome a:hover {
+  color: #717171;
+}
+
+/*wrapper/container styles*/
+
+#wrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+
+/*columns and pins*/
+
+#columns {
+  -webkit-column-count: 5;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 5;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 5;
+  column-gap: 10px;
+  column-fill: auto;
+}
+
+.pin {
+  display: inline-block;
+  background-color: #FEFEFE;
+  border: 0px solid #FAFAFA;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  margin: 0px 2px 15px 0px;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  padding: 5px 5px 2px 5px;
+  background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+  opacity: 1;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.pin img {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.pin p {
+  font: 12px/18px Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.pin:hover {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
